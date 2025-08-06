@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaCube | 魔方栖居</title>
+  <style>
+    /* Reset some default margins */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #f5f5f5;
+      background: #0b0c10;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem 6rem;
+      background: radial-gradient(circle at 50% -40%, rgba(66, 85, 249, 0.6), transparent 70%);
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      margin-bottom: 1rem;
+    }
+    header p.tagline {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+    header p.subtitle {
+      font-size: 1rem;
+      color: #aab3c5;
+    }
+    section {
+      padding: 4rem 2rem;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    .two-column {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+    .two-column img {
+      width: 100%;
+      border-radius: 0.75rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    }
+    .two-column .text {
+      flex: 1 1 48%;
+      min-width: 280px;
+    }
+    .two-column .text h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #e6eaf3;
+    }
+    .two-column .text p {
+      margin-bottom: 1.2rem;
+      font-size: 1.05rem;
+      color: #c9d1e0;
+    }
+    .two-column .image {
+      flex: 1 1 48%;
+      min-width: 280px;
+    }
+    .feature-list {
+      margin: 2rem 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .feature-item {
+      flex: 1 1 45%;
+      min-width: 250px;
+      background: #161b23;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    .feature-item h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+      color: #e2e8f0;
+    }
+    .feature-item p {
+      font-size: 0.95rem;
+      color: #b8c4d4;
+      line-height: 1.4;
+    }
+    footer {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #08090f;
+    }
+    footer p {
+      font-size: 1rem;
+      color: #858ead;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      header p.tagline {
+        font-size: 1.2rem;
+      }
+      .two-column .text h2 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MetaCube | 魔方栖居</h1>
+    <p class="tagline">3米的空间，容纳无限生活</p>
+    <p class="subtitle">3 meters of space &nbsp;–&nbsp; infinite living</p>
+  </header>
+
+  <!-- Section: Concept of the Cube -->
+  <section>
+    <div class="container two-column">
+      <div class="text">
+        <h2>你的世界浓缩在一个立方体</h2>
+        <p>在 MetaCube，每个人的世界都浓缩在 <strong>3m × 3m × 3m</strong> 的空间中。你不再需要广阔的房间，因为每一处功能都在指间滑动之间出现。</p>
+        <p>In MetaCube, your entire world is condensed into a <strong>3 m × 3 m × 3 m</strong> cube. Spacious rooms are obsolete, because every function materialises at your fingertips.</p>
+      </div>
+      <div class="image">
+        <img src="cube_bright.png" alt="明亮空间的 MetaCube" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Transformable modules -->
+  <section style="background: #0f111a;">
+    <div class="container two-column">
+      <div class="image">
+        <img src="cube_dark.png" alt="变形空间的 MetaCube" />
+      </div>
+      <div class="text">
+        <h2>翻转、变形的魔方系统</h2>
+        <p>一块 <strong>2m × 2m</strong> 的平台通过翻转和组合，可以瞬间变身为 VR 健身区、厨房、浴室、餐桌、录音棚或画室。模块化的设计为你节约每一寸空间。</p>
+        <p>A reversible <strong>2 m × 2 m</strong> platform flips and combines to instantly become a VR gym, kitchen, bathroom, dining table, recording studio or art studio. The modular design saves every centimetre of space for you.</p>
+      </div>
+    </div>
+    <div class="container feature-list">
+      <div class="feature-item">
+        <h3>智能环境</h3>
+        <p>通过语音和手势控制，墙壁、地面和家具会响应你的需求，调整温度、光线、音乐，甚至将墙面变为全息屏幕。</p>
+        <p>Via voice and gesture control, walls, floors and furniture respond to your needs, adjusting temperature, lighting and music, and even turning walls into holographic screens.</p>
+      </div>
+      <div class="feature-item">
+        <h3>无缝切换</h3>
+        <p>模块间无缝衔接，VR 运动结束即刻翻转成为餐桌，烹饪后平台自动清洗并转换为浴室。</p>
+        <p>Seamless transition between modules: finish a VR workout and flip into a dining table; after cooking, the platform self‑cleans and transforms into a bathroom.</p>
+      </div>
+      <div class="feature-item">
+        <h3>个人定制</h3>
+        <p>根据你的职业与爱好，调整 Cube 内部的功能模块与风格，让每个空间都是为你定制的工作室。</p>
+        <p>Tailor the interior to your profession and passions, adjusting functional modules and styles so that every space becomes a studio designed for you.</p>
+      </div>
+      <div class="feature-item">
+        <h3>可持续生活</h3>
+        <p>高效能源管理、循环水系统以及可回收材料，让你的生活在舒适中保持低碳。</p>
+        <p>Efficient energy management, water recycling and recyclable materials ensure a comfortable yet low‑carbon lifestyle.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Building concept -->
+  <section>
+    <div class="container two-column">
+      <div class="text">
+        <h2>魔方大厦：城市的未来</h2>
+        <p>整个建筑是一座巨大的“魔方大厦”，由数以千计的 Cube 组成。系统根据住户需求动态调配 Cube，让社区随时变化，灵动如生命。</p>
+        <p>The entire structure is a massive “Rubik’s Cube” composed of thousands of cubes. The system dynamically allocates cubes according to residents’ needs, making the community fluid and alive.</p>
+      </div>
+      <div class="image">
+        <img src="cube_building.png" alt="未来魔方建筑" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Closing section -->
+  <footer>
+    <p>每个 Cube 都是你的宇宙。</p>
+    <p>Every Cube is your universe.</p>
+  </footer>
+</body>
+</html>
